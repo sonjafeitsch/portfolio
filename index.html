@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>About Sonja Feitsch</title>
+    <meta name="description" content="Free Web tutorials" />
+    <meta name="keywords" content="HTML, CSS, JavaScript" />
+    <meta name="author" content="John Doe" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="code">
+      <pre>
+                '&:hover': !disabled
+                ? {
+                    backgroundColor: softHoverColor[variant],
+                }
+                : {},
+            };
+        }
+    }
+
+    export const Button = forwardRef&lt;HTMLButtonElement, ButtonProps&gt;(
+    (
+        {
+        fill,
+        className,
+        size,
+        disabled,
+        variant,
+        children,
+        theme = lightTheme,
+        ...otherProps
+        },
+        ref,
+    ) => {
+        const styles = getButtonStyles({ fill, size, disabled, variant, theme });
+
+        return (
+            &lt;button
+                data-testid="button-container"
+                ref={ref}
+                className={cx('button', styles.button, className)}
+                disabled={disabled}
+                {...otherProps}>
+                {children}
+            &lt;/button&gt;);
+        },
+    );
+
+    Button.displayName = 'Button';
+            </pre
+      >
+    </div>
+    <div class="content-container">
+      <div class="content" style="background-color: white">
+        <h1>Hi, nice to meet you 👋</h1>
+        <p>I am a software developer from Würzburg, Germany</p>
+        <p>Here is interesting text.</p>
+        <p>
+          Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+          nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
+          sed diam voluptua. At vero eos et accusam et justo duo dolores et ea
+          rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem
+          ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur
+          sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
+          dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam
+          et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea
+          takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit
+          amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
+          invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+          At vero eos et accusam et justo duo dolores et ea rebum. Stet clita
+          kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit
+          amet. Duis autem vel eum iriure dolor in hendrerit in vulputate velit
+          esse molestie consequat, vel illum dolore eu feugiat nulla facilisis
+          at vero eros et accumsan et iusto odio dignissim qui blandit praesent
+          luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
+          Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+          nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat
+          volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation
+          ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+          Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse
+          molestie consequat, vel illum dolore eu feugiat nulla facilisis at
+          vero eros et accumsan et iusto odio dignissim qui blandit praesent
+          luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
+          Nam liber tempor cum soluta nobis eleifend option congue nihil
+          imperdiet doming id quod mazim placerat facer possim assum. Lorem
+          ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
+          nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+          Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper
+          suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem
+          vel eum iriure dolor in hendrerit in vulputate velit esse molestie
+          consequat, vel illum dolore eu feugiat nulla facilisis. At vero eos et
+          accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren,
+          no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum
+          dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+          tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
+          voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
+          Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum
+          dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing
+          elitr, At accusam aliquyam diam diam dolore dolores duo eirmod eos
+          erat, et nonumy sed tempor et et invidunt justo labore Stet clita ea
+          et gubergren, kasd magna no rebum. sanctus sea sed takimata ut vero
+          voluptua. est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet,
+          consetetur
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
