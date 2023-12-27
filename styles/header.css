@@ -1,0 +1,24 @@
+header {
+  position: relative;
+}
+
+.code {
+  position: relative;
+  height: 400px;
+  overflow: hidden;
+}
+
+.code > pre {
+  margin: 0;
+  font-size: 20px;
+  color: transparent;
+  text-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+.avatar {
+  width: 180px;
+  height: 180px;
+  margin-bottom: 16px;
+  border-radius: 9999px;
+  box-shadow: 0 0 0 5px #6374ae, 0 0 0 15px #9cb6dd, 0 0 0 25px #d3e2f2;
+}

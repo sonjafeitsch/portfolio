@@ -7,9 +7,13 @@
     <meta name="keywords" content="HTML, CSS, JavaScript" />
     <meta name="author" content="John Doe" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="styles.css" />
-    <link rel="stylesheet" href="fonts.css" />
+    <link rel="stylesheet" href="styles/fonts.css" />
+    <link rel="stylesheet" href="styles/base.css" />
+    <link rel="stylesheet" href="styles/spacing.css" />
+    <link rel="stylesheet" href="styles/header.css" />
+    <link rel="stylesheet" href="styles/main.css" />
   </head>
+
   <body>
     <header>
       <div class="code">
@@ -57,35 +61,52 @@
       </div>
       <div class="content">
         <img class="avatar" src="./sonja.jpg" />
-        <h1>Hi, nice to meet you 👋</h1>
-        <p>I am a software developer from Würzburg, Germany</p>
+        <h1>Hi, I am Sonja 👋</h1>
+        <div>Software, Creativity</div>
       </div>
     </header>
-    <content>
+    <main>
       <h1>About Me</h1>
-      <div>
-        <p>
-          I am Sonja and I am working as a frontend developer in Würzburg. My
-          interests are React, Typescript, design systems and component libraries
-          and other technologies for frontend developing. My passion is to develop
-          inspiring user interfaces, from the design to the line of code.
-        </p>
-        <p>Facts about me:  
-          <ul>
-            <li>
-              When I went to school, I wasn't interested in computer
-              science. 
-            </li>
-            <li>
-              Weather knitting or drawing I like to be creative.
-            </li>
-            <li> I like
-              hiking, perferably in the Alps or in Scotland.</li>
-            </ul>
-          </p>
-      </div>
-      <h1>Talks</h1>
-      <p>Hui</p>
-    </content>
+      <p>
+        I am software developer in Würzburg, Germany. My interests are
+        <span class="bold"
+          >React, Typescript, design systems and component libraries</span
+        >
+        and other technologies for frontend developing. What exites me most
+        about software engineering is that I can
+        <span class="bold">combine creativity and technology.</span>
+      </p>
+      Find out more about my education in
+      <a href="https://google.com">my CV.</a>
+      <p>Some facts about me:</p>
+      <ul>
+        <li>
+          When I went to school, I could not imagine to work with computers and
+          programming languages
+        </li>
+        <li>
+          When I am not sitting in front of the computer, I like to draw or to
+          knit
+        </li>
+        <li>
+          I like being out and about in nature. Either long-distance running or
+          hiking
+        </li>
+      </ul>
+      <!-- <h1>Talks</h1>
+      <h3>Webdevelopment like 15 Years Ago – The new Fullstack Frameworks</h3>
+      <p>
+        Erinnert ihr euch noch an eure ersten Webprojekte mit PHP & Co? Damals
+        war es mühsam, interaktive Webanwendungen zu programmieren. Daher waren
+        wir alle froh als Single-Page-Applications kamen und mehr Komfort für
+        uns brachten. Jetzt führen einige Frameworks Server-side Rendering ein,
+        was bei vielen Entwicklern für Fragen sorgt. Ist Server-side Rendering
+        heute besser als damals? Sind Fullstack-Frameworks das Ende von
+        Single-Page-Applications? Wie ist die UX bei einer Webanwendung, die auf
+        dem Server gerendert wird? Anhand von React Remix wollen wir die
+        Funktionsweise eines Fullstack-Frameworks untersuchen und herausfinden,
+        ob Server-side Rendering heute nicht doch besser ist als vor 15 Jahren
+      </p> -->
+    </main>
   </body>
 </html>
