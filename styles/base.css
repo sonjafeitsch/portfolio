@@ -26,3 +26,8 @@ h3 {
 a {
   color: #6374ae;
 }
+
+a:hover {
+  color: #9cb6dd;
+  transition: 300ms ease-in-out;
+}
